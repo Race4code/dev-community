@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.cararol{
+    background-image: url('../Assets/desktopbg.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.joinGroupBtn{
+    display: none;
+}
+.blur{
+    height:auto;
+    background: rgba(11, 11, 11, 0.5);
+    padding-top: 270px;
+    padding-bottom:100px;
+    color:white;
+    padding-left: 200px;
+}
+.cararol>p{
+    z-index: 999;
+}
+
+.head{
+    font-size: 36px;
+}
+.count{
+    font-size: 18px;
+    font-weight: 200;
+}
+.write{
+    display: none;
+}
+@media only screen and (max-width:768px){
+    .cararol{
+        height: 40vh;
+        background-image: url('../Assets/androidbg.png');        background-size:cover;
+        background-repeat: no-repeat;
+    } 
+    .joinGroupBtn{
+        background: rgba(11, 11, 11, 0.5);
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    .joinGroupBtn>button:nth-child(1){
+        border:none;
+        cursor: pointer;
+    }
+    .joinGroupBtn>button{
+        background-color: transparent;
+        color:white;
+        border:1px solid white;
+        padding:5px 10px;
+        border-radius:5px;
+        cursor: pointer;
+    }
+    .blur{
+        height:auto;
+        background: rgba(11, 11, 11, 0.5);
+        padding-top: 130px;
+        padding-bottom:40px;
+        color:white;
+        padding-left: 30px;
+    }
+    .head{
+        font-size: 28px;
+    }
+    .count{
+        font-size: 14px;
+        font-weight: 200;
+    }
+    .write{
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        right:10px;
+        position: fixed;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,132 @@
+.navigation{
+    display: flex;
+    width: 73vw;
+    margin:3% 0px 10px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.androidNav{
+    display: none;
+}
+.sticky{
+    position: fixed;
+    top:63px;
+    width: 100%;
+    margin-right: 200px;
+    background-color:white;
+}
+.navitems{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap:18px;
+}
+.btns{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap:16px;
+}
+.writePostbtn{
+    background-color: rgba(237, 238, 240, 1);
+    font-size: 15px;
+    padding: 8px 15px;
+    border:none;
+    border-radius: 5px;
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+.joinbtn{
+    background-color:rgba(47, 108, 229, 1) ;
+    font-size: 15px;
+    padding: 8px 15px;
+    border:none;
+    border-radius: 5px;
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+.joinbtn>p{
+    color:white;
+}
+.leaveGroup{
+    display: flex;
+    border-radius: 5px;
+    font-size: 15px;
+    align-items: center;
+    gap:5px;
+    border: 1px solid rgb(211, 207, 207);
+    padding: 8px 15px;
+}
+.leaveGroup>p{
+    color:rgba(106,106,106, 1);
+}
+p{
+    color:rgba(138, 138, 138, 1);
+}
+p:first-child{
+    color:black;
+}
+hr{
+    margin:0px 200px;
+    color:rgba(138, 138, 138, 1);
+}
+@media only screen and (max-width:768px){
+    hr{
+        display:none;
+    }
+    .navigation{
+       display: none; 
+    }
+    .androidNav{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+
+}
+@media only screen  and (min-width:769px) and (max-width:1220px){
+    .navigation{
+        display: flex;
+        width: 75vw;
+        margin:3% 15% 1% 13%;
+        justify-content: space-between;
+        align-items: center;
+        /* position: sticky; */
+        /* top:55px; */
+        /* background-color: white; */
+    }
+    .navitems{
+        display: flex;
+        justify-content: space-between;
+        gap:14px;
+    }
+    .btns{
+        display: flex;
+        justify-content: flex-end;
+        gap:5px;
+    }
+    .writePostbtn{
+        font-size: 14px;
+        padding: 8px 5px;
+        border:none;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+    .leaveGroup{
+        display: flex;
+        border-radius: 5px;
+        font-size: 15px;
+        align-items: center;
+        gap:5px;
+        border: 1px solid rgb(211, 207, 207);
+        padding: 8px 2px;
+    }
+    hr{
+        margin-left:13%;
+        width: 75vw;
+        color:rgba(138, 138, 138, 1);
+    }
+}

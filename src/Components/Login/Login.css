@@ -1,0 +1,193 @@
+.outerLoginCard{
+    background-color: rgba(10,10,10,0.3);
+    width:100%;
+    height: 200vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:-50px;
+}
+.exit{
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    margin-bottom: 10px;
+    margin-right:-10px;
+   cursor: pointer;
+}
+.loginCard{
+    width: 50vw;
+    /* min-width: 80vw; */
+    background-color: transparent;
+    margin:15% 30%;
+    margin-top: 60%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.loginCardInner{
+    width: 100%;
+    height: 100%;
+    border-radius:10px ;
+    background-color: antiquewhite;
+}
+.loginCardTopbar{
+    border-radius: 10px 10px 0px 0px;
+    text-align: center; 
+    color:rgb(0,138,69);
+    font-weight: 900;
+    background: rgba(239, 255, 244, 1);
+    padding: 15px 40px;
+}
+.loginCardContent{
+    display: flex;
+
+}
+.loginForm{
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    margin:20px; 
+}
+.loginSignup{
+    font-size: 33px;
+    font-weight: 900;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+}
+.name>input{
+    width:100%;
+    border: 1px solid rgba(217, 217, 219, 1);
+    font-size: 15px;
+    background-color:rgba(247, 248, 250, 1) ;
+    height: 46px;
+    font-weight: 900;
+    padding-left: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.form>input{
+    width:100%;
+    font-size: 15px;
+    border: 1px solid rgba(217, 217, 219, 1);
+    background-color:rgba(247, 248, 250, 1) ;
+    height: 46px;
+    font-weight: 900;
+    padding-left: 20px;
+}
+.form>button{
+    margin-top: 20px;
+    background: rgba(47, 108, 229, 1);
+    border:none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color:white;
+    cursor: pointer;
+}
+.thirdpartylogin{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:10px 0px 10px 30%;
+    background-color: white;
+    border: 1px solid rgba(217, 217, 219, 1);
+    margin-top:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.thirdpartylogin>*{
+    
+    margin-right: 10px;
+    color:black;
+    font-size: 14px;
+}
+.loginCardImage{
+    margin:20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.loginCardImage>img{
+    width: 100%;
+    height: auto;
+}
+.agreement{
+    font-size: 11px;
+}
+.loginCardImage>span{
+    display: flex;
+    gap:3px;
+   color: rgba(61, 61, 61, 1)
+}
+.loginCardImage>span>p{
+    color:rgba(47, 108, 229, 1);
+    cursor: pointer;
+}
+.forgetPassword{
+    margin-top:20px;
+    text-align: center;
+}
+@media only screen and (min-width:768px) and (max-width:1220px){
+    .outerLoginCard{
+        /* background-color: red; */
+        background-color: rgba(10,10,10,0.3);
+        width:100vw;
+        height:200vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:-50px;
+    }
+    .loginCard{
+        width: 70vw;
+        background-color: transparent;
+        margin:15% 30%;
+        margin-top: 80%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .loginCardInner{
+        width: 100%;
+        height: 100%;
+        border-radius:10px ;
+        background-color: antiquewhite;
+    }
+    .exit{
+        display: flex;
+        justify-content: flex-end;
+        background-color: transparent;
+        margin-bottom: 10px;
+        margin-right:-10px;
+       cursor: pointer;
+    }
+    .thirdpartylogin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid rgba(217, 217, 219, 1);
+        margin-top:10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .thirdpartylogin>*{
+        
+        margin-right: 10px;
+        color:black;
+        font-size: 14px;
+    }
+}
