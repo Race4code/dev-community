@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/dev-Community/static/css/main.d1a5959d.css",
+    "main.js": "/dev-Community/static/js/main.5e6d32d5.js",
+    "static/media/desktopbg.png": "/dev-Community/static/media/desktopbg.5a261cc4a6a1b955e168.png",
+    "static/media/blogimage2.png": "/dev-Community/static/media/blogimage2.7d1187b79ec39dedd074.png",
+    "static/media/blogimage1.png": "/dev-Community/static/media/blogimage1.e7b712dd6802663ee2aa.png",
+    "static/media/blogimage3.png": "/dev-Community/static/media/blogimage3.05a0766a94f571885955.png",
+    "static/media/androidbg.png": "/dev-Community/static/media/androidbg.62804384fcc0bd6cd706.png",
+    "static/media/loginimage.png": "/dev-Community/static/media/loginimage.9cd8ab87cfb1f11b933c.png",
+    "index.html": "/dev-Community/index.html",
+    "main.d1a5959d.css.map": "/dev-Community/static/css/main.d1a5959d.css.map",
+    "main.5e6d32d5.js.map": "/dev-Community/static/js/main.5e6d32d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1a5959d.css",
+    "static/js/main.5e6d32d5.js"
+  ]
+}
